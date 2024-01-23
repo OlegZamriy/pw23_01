@@ -2,5 +2,36 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="List.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="List">
+      <UniqueIdentifier>{b97b7fc1-dc23-4829-a2f4-a86e10810a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{92db986c-e578-4bde-9790-02f6b6ad5bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{d44a032c-8b6b-43e6-b727-65bf44d7ea8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
