@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinearEquation.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="QuadraticEquation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Equation.h" />
+    <ClInclude Include="LinearEquation.h" />
+    <ClInclude Include="QuadraticEquation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
